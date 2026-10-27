@@ -190,9 +190,3 @@ for threshold in [0.10, 0.15, 0.20, 0.25, 0.30]:
         f"Top-1 test accuracy: {accuracy:.2f}%"
     )
 
-
-        # print("Search results:")
-        # for pair in relevant_results[:3]:
-        #     print(f"{pair[0]["filename"]}")
-        #     print(f"Similarity score: {pair[1]:.4f}")
-        #     print(f"Answer: {pair[0]["text"]}")
