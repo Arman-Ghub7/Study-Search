@@ -1,0 +1,15 @@
+Machine learning is a field of artificial intelligence that enables computer systems to learn patterns from data and make predictions or decisions without being explicitly programmed with every rule.
+
+Supervised learning uses labelled examples, where each training example includes an input and a known output. Classification predicts categories, such as identifying an email as spam or legitimate. Regression predicts numerical values, such as estimating the price of a house.
+
+Unsupervised learning works with data that does not have predefined labels. Clustering groups similar observations together, while dimensionality reduction represents data using fewer features while attempting to preserve important information.
+
+A machine learning model is trained using a dataset. The training process adjusts the model so that it learns useful relationships between input features and target outputs. A test dataset is used to evaluate how well the trained model performs on previously unseen examples.
+
+Overfitting occurs when a model learns the training data too closely, including noise, and performs poorly on new data. Underfitting occurs when a model is too simple to capture the underlying patterns. Regularization, suitable model complexity, and sufficient representative data can help improve generalization.
+
+Common classification evaluation metrics include accuracy, precision, recall, and F1-score. Accuracy measures the proportion of correct predictions. Precision measures how many predicted positive cases are actually positive, while recall measures how many actual positive cases the model identifies. The F1-score combines precision and recall using their harmonic mean.
+
+Natural language processing enables computers to work with human language. Text embeddings represent words, sentences, or documents as numerical vectors. Semantic search compares these representations to retrieve content with a similar meaning, even when the query and document use different words.
+
+Cosine similarity is a common method for comparing vector directions. In a semantic search system, the user's query and each document are converted into embeddings, and documents with higher similarity scores are generally ranked as more relevant.

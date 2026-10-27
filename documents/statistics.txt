@@ -1,0 +1,11 @@
+Statistics is the branch of mathematics concerned with collecting, organizing, presenting, analyzing, and interpreting data. It helps us identify patterns, summarize information, and make decisions based on observations.
+
+Descriptive statistics summarizes the important features of a dataset. Common measures include mean, median, and mode. The mean is the arithmetic average of all observations. The median is the middle value after arranging the observations in order. The mode is the value that occurs most frequently.
+
+Measures of dispersion describe how spread out the data values are. Range is the difference between the largest and smallest observations. Variance measures the average squared deviation from the mean, while standard deviation is the square root of variance.
+
+A population includes all individuals or observations of interest, whereas a sample is a subset selected from that population. Sampling allows researchers to study a smaller group and draw conclusions about the larger population.
+
+Inferential statistics uses sample data to estimate population characteristics or test claims about a population. A sampling distribution describes the probability distribution of a statistic across repeated samples of the same size. Hypothesis testing evaluates evidence for or against a proposed claim, while estimation uses sample information to approximate an unknown population parameter.
+
+Correlation describes the strength and direction of the relationship between two variables. However, correlation alone does not establish that one variable causes changes in another.

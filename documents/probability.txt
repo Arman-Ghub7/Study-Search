@@ -1,0 +1,11 @@
+Probability is a branch of mathematics that measures how likely an event is to occur. Its value ranges from 0 to 1, where 0 represents an impossible event and 1 represents a certain event.
+
+The probability of an event can be calculated by dividing the number of favourable outcomes by the total number of equally likely outcomes. For example, when a fair coin is tossed, the probability of getting heads is 1/2 because there is one favourable outcome out of two possible outcomes.
+
+An experiment is an activity that produces an outcome, such as rolling a die or drawing a card. The sample space is the set of all possible outcomes of an experiment. An event is a collection of one or more outcomes from the sample space.
+
+Conditional probability measures the likelihood of an event occurring when another event is already known to have occurred. Two events are independent if the occurrence of one does not change the probability of the other. For independent events, the probability that both events occur is the product of their individual probabilities.
+
+Random variables assign numerical values to the outcomes of random experiments. A discrete random variable takes countable values, while a continuous random variable can take any value within a given interval. Probability distributions describe the possible values of a random variable and their associated probabilities.
+
+The probability of an impossible event is zero

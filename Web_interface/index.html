@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="logo-name-container">
+        <img src="Assets/little-logo.png" alt="logo.png" />
+        <h1>Study Search</h1>
+      </div>
+
+      <p>Simply search questions from your notes in your own language</p>
+
+      <div id="upload-container">
+        <h2>Upload your notes</h2>
+        <p>Select a text,pdf or docx file to add it to your searchable documents.</p>
+
+        <input
+          type="file"
+          id="file-input"
+          accept=".txt,.pdf,.docx,text/plain,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        />
+
+        <button type="button" id="upload-btn">Upload Document</button>
+
+        <p id="upload-status"></p>
+      </div>
+
+      <div id="documents-container">
+        <div class="documents-header">
+          <h2>My Documents</h2>
+          <button type="button" id="refresh-documents-btn">Refresh</button>
+        </div>
+
+        <p id="documents-status">Loading documents...</p>
+        <div id="documents-list"></div>
+      </div>
+
+      <div id="search-div">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Enter your question"
+        />
+        <button type="button" class="search-btn" id="search-btn">Search</button>
+      </div>
+
+      <div id="results-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
